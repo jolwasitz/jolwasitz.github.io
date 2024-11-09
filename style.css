@@ -40,9 +40,13 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('background.jpg') center/cover no-repeat;
     color: #fff;
     text-align: center;
+    background-image: url('BG.jpg');
+    background-attachment: fixed; /* This enables the parallax effect */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
   .hero-content h1 {
